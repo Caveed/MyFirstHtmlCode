@@ -1,0 +1,70 @@
+.box{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: deepskyblue;
+}
+
+.item{
+
+    background-color: rgba(255,0,0,0.5);
+    display: inline-block;
+    overflow: hidden;
+
+
+}
+
+
+.i-1{
+    border: 5px solid orange;
+}
+.i-2{
+    border: 10px solid black;
+}
+.img-box{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+.item>img{
+
+    width: 250px;
+    height: 200px;
+    transition-property: width,height;
+    transition-duration: 1s;
+}
+
+.item>h1,p{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.item>img:hover{
+    width: 300px;
+    height: 250px;
+}
+body{
+    background: url("https://wallpaperaccess.com/full/7314.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+}
+.img-box >img{
+    width: 300px;   
+    height: 300px;
+    transition: 2s;
+}
+
+.img-box{
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 40%;
+}
+
+.img-box>img:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+}
